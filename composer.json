@@ -1,0 +1,19 @@
+{
+    "name": "microphp/amp",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MicroPHP\\Amp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "liutao",
+            "email": "gg.cn.lt@gmail.com"
+        }
+    ],
+    "require": {
+        "amphp/http-server": "^3.2",
+        "amphp/log": "^2.0"
+    }
+}
